@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            height: 100vh;
+            background-color: #191825;
+
+            /* 1st trick */
+            /* position: relative; */
+
+
+            /* 2nd trick */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+
+
+            /* 3nd trick */
+            /* display: grid;
+            place-items: center; */
+
+
+            /* 4th trick */
+            /* display: grid;
+            align-items: center;
+            justify-content: center;  */
+
+
+
+            /* 5th trick */
+            /* display: flex; */
+
+        }
+
+        .child{
+            width: 400px;
+            height: 400px;
+            background-color: #865dff;
+
+            /* 1st trick */
+            /* position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50% ,-50%); */
+
+
+            /* 5nd trick */
+            /* margin: auto; */
+
+
+
+            /* text center */
+            color: #fff;
+            font-size: 50px;
+            display: flex;
+            align-items:center;
+            justify-content: center;
+
+
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="child">Text content</div>
+</body>
+</html>
